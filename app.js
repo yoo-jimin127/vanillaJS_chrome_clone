@@ -1,1 +1,1 @@
-alert('hi');
+alert(prompt('momentum clone coding yes/no? :'));
