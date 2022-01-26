@@ -1,1 +1,12 @@
-alert(prompt('momentum clone coding yes/no? :'));
+const a = 5;
+const b = 2;
+let c = 12;
+
+const player = {
+    name: "nico",
+    sayHello: function (otherPersonsName) {
+        console.log("hello " + otherPersonsName + " nice to meet you");
+    },
+};
+
+player.sayHello("lynn");
