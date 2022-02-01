@@ -10,3 +10,6 @@ const player = {
 };
 
 player.sayHello("lynn");
+console.log(player, console);
+player.sexy = "soon";
+console.log(player);
