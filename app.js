@@ -1,3 +1,4 @@
+// chapter 2
 const calculator = {
     plus: function (a, b) {
         return (a + b);
@@ -29,3 +30,7 @@ const minusResult = calculator.minus(2,3);
 const timesResult = calculator.times(2,3);
 const divideResult = calculator.divide(2,3);
 const powerResult = calculator.power(2,3);
+
+//chapter 3
+
+
