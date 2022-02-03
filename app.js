@@ -1,36 +1,16 @@
-// chapter 2
-const calculator = {
-    plus: function (a, b) {
-        return (a + b);
-    },
-    minus: function (a, b) {
-        return (a - b);
-    },
-    times: function (a, b) {
-        return (a * b);
-    },
-    divide: function (a, b) {
-        return (a / b);
-    },
-    power: function (a, b) {
-        return (a ** b);
-    }
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
+const link = document.querySelector("a");
+
+function onLoginSubmit(event) {
+    event.preventDefualt();
+    console.log(loginInput);
 }
 
-const age = 23;
-function calculateKrAge(ageOfForeigner) {
-    ageOfForeigner + 2;
+function handleLinkClick(event) {
+    event.preventDefualt();
+    console.log(event);
 }
 
-const krAge=calculateKrAge(age);
-console.log(krAge);
-
-const plusResult = calculator.plus(2,3);
-const minusResult = calculator.minus(2,3);
-const timesResult = calculator.times(2,3);
-const divideResult = calculator.divide(2,3);
-const powerResult = calculator.power(2,3);
-
-//chapter 3
-
-
+loginForm.addEventListener("submit", onLoginSubmit);
+link.addEventListener("click", handleLinkClick);
