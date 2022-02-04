@@ -1,3 +1,83 @@
+* {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.body {
+    margin: 0px;
+}
+
 .hidden {
     display: none;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -999;
+}
+
+#clock {
+    position: fixed;
+    margin: auto 45%;
+    margin-top: 5%;
+    font-size: 3vw;
+    text-shadow: 2px 2px 2px rgb(43, 43, 43);
+}
+
+#greeting {
+    position: fixed;
+    top: 5vh;
+    left: 38vw;
+    margin-top: 10%;
+    font-size: 5vw;
+    text-shadow: 2px 2px 2px rgb(43, 43, 43);
+}
+
+#todo-form {
+    position: fixed;
+    margin-top: 0%;
+    top: 50vh;
+    left: 41vw;
+}
+
+.todo-input {
+    width: 20vw;
+    height: 6vh;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 0.2vw solid white;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
+}
+
+#todo-list {
+    position: fixed;
+    top: 60vh;
+    left: 47vw;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
+}
+
+.delete-btn {
+    border: none;
+    background: none;
+}
+
+#quote {
+    position: fixed;
+    top: 95vh;
+    left: 32vw;
+    font-size: 1vw;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
 }
